@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 4%;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+img {
+  height: 150px;
+  flex-grow: 1;
+  object-fit: cover;
+}
